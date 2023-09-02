@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #cffcf1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+.play-image {
+  height: 30px;
+}
+.play-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.start-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 200px;
+}
+.set-timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.plus-minus-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 150px;
+}
+.set-timer-value {
+  height: 40px;
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, green, #00d9f5);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.timer-results-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+.result-container {
+  background-color: #ffffff;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.minus-button {
+  font-weight: bold;
+  font-size: 20px;
+  width: 50px;
+}
